@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+body{
+    background-image: url('../images/8.jpg');
+    background-size: cover;
+}
+nav{
+    background-color:#A53DB0 ;
+    opacity: 0.8;
+    width: 100%;
+    height: 45px;
+    direction: rtl;
+    pad: 15px;
+    transition: ease-in-out .3s;
+   
+
+}
+
+nav a{
+    display: inline-block;
+    padding: 5px 20px;
+    margin:8px 20px;
+    text-decoration: none;
+    color:#131D1F ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: ease-in-out .3s;
+}
+nav a:hover{
+    background-color:#A31630 ;
+    border-radius: 5px;
+    transition: ease-in-out .3s;
+}
+nav:hover{
+    opacity: 1;
+    transition: ease-in-out .3s;
+
+}
+.site-head-div{
+    border: 1px solid #A53DB0;
+    margin: 10px auto;
+    border-radius:10px;
+    height: 70px;
+    width: 15%;
+    background-color: #8fb1bb9d;
+    box-shadow: 5px 5px 10px #A53DB0;
+
+    
+}
+.site-head{
+    text-align: center;
+    margin: -5px;
+    padding: 3px;
+}
+.site-head span{
+    font-size: 48px;
+
+}
+.site-head span:nth-child(1){
+    color: #A31630;
+}
+.site-head span:nth-child(2){
+    color: green;
+}
+.site-head span:nth-child(3){
+    color: black;
+}
+/*about us 1 style*/
+
+.about-us-1{
+    border: 1px solid #A53DB0;
+    border-radius:10px;
+    margin: 40px auto;
+    height: 300px;
+    width: 60%;
+    background-color: #8fb1bbbe;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #A53DB0;
+
+    
+}
+.about-us-1 p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+h2{
+    text-align: center;
+    color: #b11e39;
+    font-size: 32px;
+    letter-spacing: 7px;
+}
+/*links styling*/
+.links{
+    margin: 50px auto;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+}
+.links a{
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #A31630;
+    font-weight: bold;
+    background-color: #8fb1bba9;
+    border: 1px solid #A53DB0;
+    border-radius:10px;
+    box-shadow: 5px 5px 10px #A53DB0;
+    transition: ease-in-out 0.5s;
+
+}
+.links a:hover{
+    color: #8fb1bba9;
+    background-color: #A31630;
+    box-shadow: 0 0 0 #A53DB0;
+    transition: ease-in-out 0.5s;
+}
