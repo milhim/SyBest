@@ -42,7 +42,7 @@
 
     <?php
     //connect to database
-    $serverName = 'postgres://xqvyhqrtduoprb:69a5470bb48f59912413ea43d7b9cea5d006184f376a6493a08844352c921f60@ec2-184-73-252-221.compute-1.amazonaws.com:5432/d9omjpci28j5sp';
+    $serverName = 'ec2-184-73-252-221.compute-1.amazonaws.com';
     $username = 'xqvyhqrtduoprb';
     $password = '69a5470bb48f59912413ea43d7b9cea5d006184f376a6493a08844352c921f60';
     $dbname = 'd9omjpci28j5sp';
