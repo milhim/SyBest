@@ -42,10 +42,10 @@
 
     <?php
     //connect to database
-    $serverName = 'ec2-184-73-252-221.compute-1.amazonaws.com';
-    $username = 'xqvyhqrtduoprb';
-    $password = '69a5470bb48f59912413ea43d7b9cea5d006184f376a6493a08844352c921f60';
-    $dbname = 'd9omjpci28j5sp';
+    $serverName = 'ec2-35-153-35-94.compute-1.amazonaws.com';
+    $username = 'iywqwsxoolrmkf';
+    $password = 'cd6c47bc3cdc92497eead23bc4c30b6c232506492e8c7906c6c4b89ef3bbbf2d';
+    $dbname = 'd1o29fjjrvct7c';
 
     $conn = mysqli_connect($serverName, $username, $password, $dbname);
     if (!$conn) {

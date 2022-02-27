@@ -21,10 +21,11 @@
 
     </nav>
     <?php
-    $serverName = 'localhost';
-    $username = 'root';
-    $password = '';
-    $dbname = 'sybest';
+        $serverName = 'ec2-35-153-35-94.compute-1.amazonaws.com';
+        $username = 'iywqwsxoolrmkf';
+        $password = 'cd6c47bc3cdc92497eead23bc4c30b6c232506492e8c7906c6c4b89ef3bbbf2d';
+        $dbname = 'd1o29fjjrvct7c';
+    
 //connect to DB and get the movie_id from URL by GET variable
     $conn = mysqli_connect($serverName, $username, $password, $dbname);
     if (!$conn) {
